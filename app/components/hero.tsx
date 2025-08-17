@@ -10,7 +10,7 @@ export default function Hero() {
         </p>
         <a
           href="#courses"
-          className="bg-white text-indigo-600 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100"
+          className="bg-white text-indigo-600 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 button"
         >
           Explore Courses
         </a>

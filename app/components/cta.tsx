@@ -21,7 +21,7 @@ export default function CTA() {
         </p>
         <a
           href="https://wa.me/923128694822" 
-          className="bg-white text-indigo-600 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100"
+          className="button bg-white text-indigo-600 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100"
         >
           Enroll Now
         </a>
