@@ -20,7 +20,7 @@ export default function Features() {
             <Code className="mx-auto text-indigo-600 w-12 h-12 mb-4" />
             <h3 className="font-semibold text-lg">Practical Learning</h3>
             <p className="text-gray-600 mt-2">
-              Learn by building real-world projects with HTML, CSS & JavaScript.
+              Learn by building real-world projects and gaining hands-on experience.
             </p>
           </div>
           <div className="p-6 bg-white rounded-2xl shadow">
