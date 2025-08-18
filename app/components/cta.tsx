@@ -2,6 +2,7 @@
 import { useEffect } from "react";
 import 'aos/dist/aos.css';
 import AOS from 'aos';
+import Link from "next/link";
 
 export default function CTA() {
     useEffect(() => {
@@ -19,12 +20,14 @@ export default function CTA() {
         <p className="text-lg mb-8">
           Join our upcoming batch and learn by building real projects.
         </p>
-        <a
-          href="https://wa.me/923128694822" 
+        <Link
+          href="https://docs.google.com/forms/d/e/1FAIpQLSdgUGbXogN9ALb-tu6ZqlNwUapQVMQsOrqIMrCcVWKlU1OAfw/viewform?usp=header" 
+          target="_blank"
+          rel="noopener noreferrer"
           className="button bg-white text-indigo-600 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100"
         >
           Enroll Now
-        </a>
+        </Link>
       </div>
     </section>
   );
