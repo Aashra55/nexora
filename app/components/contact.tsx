@@ -55,7 +55,7 @@ export default function Contact() {
               highlight={false}
               key={index}
             >
-              <div key={index} className="bg-gray-200 p-6 rounded-2xl shadow">
+              <div key={index} className="bg-gray-100 p-6 rounded-2xl shadow">
                 <Icon className="mx-auto text-indigo-600 w-8 h-8 mb-3" />
                 <h4 className="font-semibold">{item.title}</h4>
 
