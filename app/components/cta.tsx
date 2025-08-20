@@ -3,6 +3,7 @@ import { useEffect } from "react";
 import 'aos/dist/aos.css';
 import AOS from 'aos';
 import Link from "next/link";
+import Atropos from "atropos/react";
 
 export default function CTA() {
     useEffect(() => {
@@ -13,6 +14,11 @@ export default function CTA() {
         }, [])
   return (
     <section className="py-20 bg-indigo-600 text-white text-center" data-aos="fade-up">
+      <Atropos
+        className="my-atropos w-full h-full"
+        shadow={false}
+        highlight={false}
+      >
       <div className="max-w-4xl mx-auto px-6">
         <h2 className="text-3xl font-bold mb-6">
           Start Your Web Development Journey Today 🚀
@@ -29,6 +35,8 @@ export default function CTA() {
           Enroll Now
         </Link>
       </div>
+      </Atropos>
     </section>
   );
 }
+

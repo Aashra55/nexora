@@ -2,6 +2,7 @@
 import { useEffect } from "react";
 import 'aos/dist/aos.css';
 import AOS from 'aos';
+import Atropos from "atropos/react";
 
 export default function Courses() {
   useEffect(() => {
@@ -55,17 +56,24 @@ export default function Courses() {
         <h2 className="text-3xl font-bold mb-12">Our Courses</h2>
         <div className="grid md:grid-cols-3 gap-10">
           {courses.map((course, index) => (
-            <div
+            <Atropos
+              className="my-atropos"
+              shadow={false}
+              highlight={false}
               key={index}
-              className="p-6 bg-white rounded-2xl shadow border transform transition-transform duration-500 ease-in-out hover:scale-105 hover:shadow-xl"
-              data-aos="fade-up"
-              data-aos-delay={index * 100}  // staggered animation
-              data-aos-duration="800"
             >
-              <h3 className="text-xl font-semibold mb-3">{course.title}</h3>
-              <p className="text-gray-600 mb-4">{course.description}</p>
-              <span className="text-indigo-600 font-bold">{course.price}</span>
-            </div>
+              <div
+                key={index}
+                className="p-6 bg-white rounded-2xl border border-indigo-600"
+                data-aos="fade-up"
+                data-aos-delay={index * 100}  // staggered animation
+                data-aos-duration="800"
+              >
+                <h3 className="text-xl font-semibold mb-3">{course.title}</h3>
+                <p className="text-gray-600 mb-4">{course.description}</p>
+                <span className="text-indigo-600 font-bold">{course.price}</span>
+              </div>
+            </Atropos>
           ))}
         </div>
       </div>
