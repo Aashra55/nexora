@@ -16,12 +16,12 @@ export default function Courses() {
     {
       title: "HTML + CSS + Tailwind",
       description: "Learn modern web design from scratch with HTML, CSS, and Tailwind.",
-      price: "PKR 4,000"
+      price: "PKR 2,999"
     },
     {
       title: "JavaScript & DOM",
       description: "Build interactive websites with JavaScript and DOM manipulation.",
-      price: "PKR 5,000"
+      price: "PKR 2,999"
     },
     {
       title: "Complete Web Dev Bootcamp",
@@ -31,22 +31,22 @@ export default function Courses() {
     {
       title: "Next.js & TypeScript",
       description: "Learn modern full-stack development with Next.js, TypeScript, and TailwindCSS.",
-      price: "PKR 12,000"
+      price: "PKR 7,999"
     },
     {
       title: "Python Programming",
       description: "Start coding with Python - syntax, OOP, and real projects.",
-      price: "PKR 3,000"
+      price: "PKR 1,999"
     },
     {
       title: "Python & Streamlit",
       description: "Build interactive AI dashboards and data apps using Streamlit.",
-      price: "PKR 9,000"
+      price: "PKR 7,999"
     },
     {
       title: "C++ Fundamentals",
       description: "Learn C++ programming concepts with practical coding examples.",
-      price: "PKR 3,000"
+      price: "PKR 1,999"
     },
   ];
 
